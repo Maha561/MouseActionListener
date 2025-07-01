@@ -3,9 +3,9 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class Main extends Frame implements MouseListener {
+public class implementation extends Frame implements MouseListener {
     Label display;
-    Main(){
+    implementation(){
         display = new Label( " this is mouse");
         add(display);
         addMouseListener(this);
@@ -19,7 +19,7 @@ public class Main extends Frame implements MouseListener {
 
     public static void main(String[] args) {
 
-        new Main();
+        new implementation();
     }
 
     @Override
